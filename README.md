@@ -9,9 +9,10 @@ Because sometimes you have so many Terminal windows open, it's nice to have some
 _Credit for this goes to some various people on the internet who've done something similar and shared a few osascript tips_
 
 ### Usage
-- save the script to somewhere with a global path, preferably in a dir already in your `$PATH` (e.g., `/usr/local/bin/termfontcolorswitcher.sh` )
+- save the script to somewhere with a global path, preferably in a dir that's already in your `$PATH` (e.g., `/usr/local/bin/termfontcolorswitcher.sh` )
 - Make it executable `chmod +x /usr/local/bin/termfontcolorswitcher.sh`
-- Put it in your `.bash_profile`
+- Put the full executable path in your `.bash_profile`, preferably near the top
+- Open some windows and enjoy all the colors!
 
 ### Issues
 1. One day, I'm going to tune the randomization to ensure more saturation, but that day is not today.
